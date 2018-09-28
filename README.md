@@ -2,7 +2,7 @@
 ### 2015261034 백재인
 ***
 ## git 명령어 정리
-**전역 설정 정보 조회**
+- **전역 설정 정보 조회**
 git config - -global - -list
 **전역 설정 정보 삭제시키기**
 git config --global --unset-all user.email

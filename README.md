@@ -1,18 +1,28 @@
-# git 명령어, markdown 문법 정리
+# git 명령어, MarkDown 문법 정리
+
 ### 2015261034 백재인
 ***
 ## git 명령어 정리
+
 1. **전역 설정 정보 조회**
+
 > git config - -global - -list
+
 2. **전역 설정 정보 삭제시키기**
+
 > git config --global --unset-all user.email
 
 > git config --global --unset-all user.name
 3. **새로운 저장소 초기화하기**
+
 > git init
+
 4. **저장소 복제하기**
+
 > git clone <저장소 url>
+
 5. **새로운 원격 저장소 추가하기**
+
 > git remote add <원격 저장소> <저장소 url>
 6. **새로운 파일 git에 등록시키기(staging)**
 > git add <파일>
